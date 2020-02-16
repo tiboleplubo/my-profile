@@ -1,0 +1,82 @@
+body {
+	background-color: #f4fffd;
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(70,70,70);
+	font-weight: lighter;
+}
+}
+h1 {
+	color: rgb(30,30,30);
+	font-family:'Merriweather', serif;
+	font-size: 32px;
+}
+h2 {
+	font-weight: bold;
+	color: #9ddbad;
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #a9cef4;
+	font-size: 20px;
+}
+a:hover {
+	color : #31263e;
+}
+.logo {
+	font-size-adjust: 100px;
+}
+
+#LouisDurance {
+	margin: 0px auto;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+#tete {
+	width: 700px;
+    margin: 10px auto;
+    text-align: center;
+}
+.white-card {
+	    margin: 20px;
+		background-color: white;
+		padding: 60px;
+		box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+		border-radius: 5px;
+		text-align: center;
+}
+@media (max-width:500px) {
+	#tete {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	#tete {
+		width: 600px;
+	}
+}
+#btn-blue {
+	background-color: #6B72E1
+	color : white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline {
+	text-decoration: none;	
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover {
+	color: black;
+}
